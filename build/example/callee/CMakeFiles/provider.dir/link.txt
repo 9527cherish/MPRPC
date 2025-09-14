@@ -1,0 +1,1 @@
+/usr/bin/g++   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   CMakeFiles/provider.dir/userService.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o  -o provider  ../../thirdparty/spdlog/libspdlogd.a -lprotobuf::protobuf -lpthread 

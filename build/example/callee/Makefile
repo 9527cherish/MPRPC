@@ -152,6 +152,33 @@ __/user.pb.cc.s:
 	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s
 .PHONY : __/user.pb.cc.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 userService.o: userService.cpp.o
 
 .PHONY : userService.o
@@ -191,6 +218,9 @@ help:
 	@echo "... __/user.pb.o"
 	@echo "... __/user.pb.i"
 	@echo "... __/user.pb.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... userService.o"
 	@echo "... userService.i"
 	@echo "... userService.s"

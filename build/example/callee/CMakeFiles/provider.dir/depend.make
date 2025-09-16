@@ -4,6 +4,8 @@
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.cc
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.h
 
+example/callee/CMakeFiles/provider.dir/main.cpp.o: ../example/callee/main.cpp
+
 example/callee/CMakeFiles/provider.dir/userService.cpp.o: ../example/user.pb.h
 example/callee/CMakeFiles/provider.dir/userService.cpp.o: ../example/callee/userService.cpp
 

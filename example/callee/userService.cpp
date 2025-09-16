@@ -9,6 +9,7 @@ class UserService : public fixbug::UserServiceRpc
     {
         std::cout << "" << std::endl;
         std::cout << "name:" << name << "pwd:" << pwd << std::endl;
+        return true;
     }
 
     void Login(::google::protobuf::RpcController* controller,

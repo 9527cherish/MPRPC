@@ -173,12 +173,12 @@ thirdparty/spdlog/clean: thirdparty/spdlog/CMakeFiles/spdlog.dir/clean
 example/callee/CMakeFiles/provider.dir/all: thirdparty/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/depend
 	$(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=1,2,3 "Built target provider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=1,2,3,4 "Built target provider"
 .PHONY : example/callee/CMakeFiles/provider.dir/all
 
 # Build rule for subdir invocation for target.
 example/callee/CMakeFiles/provider.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles 0
 .PHONY : example/callee/CMakeFiles/provider.dir/rule
@@ -200,7 +200,7 @@ example/callee/CMakeFiles/provider.dir/clean:
 thirdparty/spdlog/CMakeFiles/spdlog.dir/all:
 	$(MAKE) -f thirdparty/spdlog/CMakeFiles/spdlog.dir/build.make thirdparty/spdlog/CMakeFiles/spdlog.dir/depend
 	$(MAKE) -f thirdparty/spdlog/CMakeFiles/spdlog.dir/build.make thirdparty/spdlog/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12 "Built target spdlog"
 .PHONY : thirdparty/spdlog/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.

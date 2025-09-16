@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wj/Code/SDL2__Game/MPRPC/example/user.pb.cc" "/home/wj/Code/SDL2__Game/MPRPC/build/example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
+  "/home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp" "/home/wj/Code/SDL2__Game/MPRPC/build/example/callee/CMakeFiles/provider.dir/main.cpp.o"
   "/home/wj/Code/SDL2__Game/MPRPC/example/callee/userService.cpp" "/home/wj/Code/SDL2__Game/MPRPC/build/example/callee/CMakeFiles/provider.dir/userService.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

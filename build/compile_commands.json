@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=gnu++17 -o CMakeFiles/provider.dir/main.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp",
+  "file": "/home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp"
+},
+{
+  "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/example/callee",
   "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=gnu++17 -o CMakeFiles/provider.dir/userService.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/example/callee/userService.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/example/callee/userService.cpp"
 },

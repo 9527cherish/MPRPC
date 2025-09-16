@@ -7,4 +7,4 @@ find_package(Protobuf REQUIRED)
 # add_library(MuduoSimplify SHARED ${SRC_LIST})
 add_executable(provider ${SRC_LIST} ${PROTO_LIST})
 
-target_link_libraries(provider PRIVATE spdlog::spdlog  protobuf::protobuf)
+target_link_libraries(provider PRIVATE spdlog::spdlog  protobuf::libprotobuf)

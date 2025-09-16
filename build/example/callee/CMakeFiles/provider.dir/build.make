@@ -57,9 +57,22 @@ include example/callee/CMakeFiles/provider.dir/progress.make
 # Include the compile flags for this target's objects.
 include example/callee/CMakeFiles/provider.dir/flags.make
 
+example/callee/CMakeFiles/provider.dir/main.cpp.o: example/callee/CMakeFiles/provider.dir/flags.make
+example/callee/CMakeFiles/provider.dir/main.cpp.o: ../example/callee/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/callee/CMakeFiles/provider.dir/main.cpp.o"
+	cd /home/wj/Code/SDL2__Game/MPRPC/build/example/callee && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/main.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp
+
+example/callee/CMakeFiles/provider.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/main.cpp.i"
+	cd /home/wj/Code/SDL2__Game/MPRPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp > CMakeFiles/provider.dir/main.cpp.i
+
+example/callee/CMakeFiles/provider.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/main.cpp.s"
+	cd /home/wj/Code/SDL2__Game/MPRPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp -o CMakeFiles/provider.dir/main.cpp.s
+
 example/callee/CMakeFiles/provider.dir/userService.cpp.o: example/callee/CMakeFiles/provider.dir/flags.make
 example/callee/CMakeFiles/provider.dir/userService.cpp.o: ../example/callee/userService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/callee/CMakeFiles/provider.dir/userService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/provider.dir/userService.cpp.o"
 	cd /home/wj/Code/SDL2__Game/MPRPC/build/example/callee && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/userService.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/example/callee/userService.cpp
 
 example/callee/CMakeFiles/provider.dir/userService.cpp.i: cmake_force
@@ -72,7 +85,7 @@ example/callee/CMakeFiles/provider.dir/userService.cpp.s: cmake_force
 
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: example/callee/CMakeFiles/provider.dir/flags.make
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
 	cd /home/wj/Code/SDL2__Game/MPRPC/build/example/callee && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/wj/Code/SDL2__Game/MPRPC/example/user.pb.cc
 
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.i: cmake_force
@@ -85,22 +98,25 @@ example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s: cmake_force
 
 # Object files for target provider
 provider_OBJECTS = \
+"CMakeFiles/provider.dir/main.cpp.o" \
 "CMakeFiles/provider.dir/userService.cpp.o" \
 "CMakeFiles/provider.dir/__/user.pb.cc.o"
 
 # External object files for target provider
 provider_EXTERNAL_OBJECTS =
 
-example/callee/provider: example/callee/CMakeFiles/provider.dir/userService.cpp.o
-example/callee/provider: example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
-example/callee/provider: example/callee/CMakeFiles/provider.dir/build.make
-example/callee/provider: thirdparty/spdlog/libspdlogd.a
-example/callee/provider: example/callee/CMakeFiles/provider.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable provider"
+../bin/provider: example/callee/CMakeFiles/provider.dir/main.cpp.o
+../bin/provider: example/callee/CMakeFiles/provider.dir/userService.cpp.o
+../bin/provider: example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
+../bin/provider: example/callee/CMakeFiles/provider.dir/build.make
+../bin/provider: ../lib/libspdlogd.a
+../bin/provider: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+../bin/provider: example/callee/CMakeFiles/provider.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/provider"
 	cd /home/wj/Code/SDL2__Game/MPRPC/build/example/callee && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/provider.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-example/callee/CMakeFiles/provider.dir/build: example/callee/provider
+example/callee/CMakeFiles/provider.dir/build: ../bin/provider
 
 .PHONY : example/callee/CMakeFiles/provider.dir/build
 

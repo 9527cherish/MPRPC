@@ -109,7 +109,7 @@ provider_EXTERNAL_OBJECTS =
 ../bin/provider: example/callee/CMakeFiles/provider.dir/userService.cpp.o
 ../bin/provider: example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
 ../bin/provider: example/callee/CMakeFiles/provider.dir/build.make
-../bin/provider: ../lib/libspdlogd.a
+../bin/provider: thirdparty/spdlog/libspdlogd.a
 ../bin/provider: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 ../bin/provider: example/callee/CMakeFiles/provider.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/provider"

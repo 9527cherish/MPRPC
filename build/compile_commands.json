@@ -1,5 +1,20 @@
 [
 {
+  "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/src",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -Dmprpc_EXPORTS -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=gnu++17 -o CMakeFiles/mprpc.dir/mprpcApplication.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/src/mprpcApplication.cpp",
+  "file": "/home/wj/Code/SDL2__Game/MPRPC/src/mprpcApplication.cpp"
+},
+{
+  "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/src",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -Dmprpc_EXPORTS -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=gnu++17 -o CMakeFiles/mprpc.dir/mprpcCommonFunc.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/src/mprpcCommonFunc.cpp",
+  "file": "/home/wj/Code/SDL2__Game/MPRPC/src/mprpcCommonFunc.cpp"
+},
+{
+  "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/src",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -Dmprpc_EXPORTS -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=gnu++17 -o CMakeFiles/mprpc.dir/rpcProvider.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/src/rpcProvider.cpp",
+  "file": "/home/wj/Code/SDL2__Game/MPRPC/src/rpcProvider.cpp"
+},
+{
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/example/callee",
   "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=gnu++17 -o CMakeFiles/provider.dir/main.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/example/callee/main.cpp"
@@ -16,37 +31,37 @@
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/spdlog.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/spdlog.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/spdlog.cpp"
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/stdout_sinks.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/stdout_sinks.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/stdout_sinks.cpp"
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/color_sinks.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/color_sinks.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/color_sinks.cpp"
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/file_sinks.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/file_sinks.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/file_sinks.cpp"
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/async.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/async.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/async.cpp"
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/cfg.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/cfg.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/cfg.cpp"
 },
 {
   "directory": "/home/wj/Code/SDL2__Game/MPRPC/build/thirdparty/spdlog",
-  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/bundled_fmtlib_format.cpp",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/wj/Code/SDL2__Game/MPRPC/include -I/home/wj/Code/SDL2__Game/MPRPC/example -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog -I/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/include   -Wall -Wextra -pedantic  -Wall -Wextra -pedantic -g -fPIC   -std=c++17 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/bundled_fmtlib_format.cpp",
   "file": "/home/wj/Code/SDL2__Game/MPRPC/thirdparty/spdlog/src/bundled_fmtlib_format.cpp"
 }
 ]

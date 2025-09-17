@@ -110,6 +110,102 @@ depend:
 	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/mprpc.dir/rule:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/rule
+.PHONY : src/CMakeFiles/mprpc.dir/rule
+
+# Convenience name for target.
+mprpc: src/CMakeFiles/mprpc.dir/rule
+
+.PHONY : mprpc
+
+# fast build rule for target.
+mprpc/fast:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
+.PHONY : mprpc/fast
+
+mprpcApplication.o: mprpcApplication.cpp.o
+
+.PHONY : mprpcApplication.o
+
+# target to build an object file
+mprpcApplication.cpp.o:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcApplication.cpp.o
+.PHONY : mprpcApplication.cpp.o
+
+mprpcApplication.i: mprpcApplication.cpp.i
+
+.PHONY : mprpcApplication.i
+
+# target to preprocess a source file
+mprpcApplication.cpp.i:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcApplication.cpp.i
+.PHONY : mprpcApplication.cpp.i
+
+mprpcApplication.s: mprpcApplication.cpp.s
+
+.PHONY : mprpcApplication.s
+
+# target to generate assembly for a file
+mprpcApplication.cpp.s:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcApplication.cpp.s
+.PHONY : mprpcApplication.cpp.s
+
+mprpcCommonFunc.o: mprpcCommonFunc.cpp.o
+
+.PHONY : mprpcCommonFunc.o
+
+# target to build an object file
+mprpcCommonFunc.cpp.o:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcCommonFunc.cpp.o
+.PHONY : mprpcCommonFunc.cpp.o
+
+mprpcCommonFunc.i: mprpcCommonFunc.cpp.i
+
+.PHONY : mprpcCommonFunc.i
+
+# target to preprocess a source file
+mprpcCommonFunc.cpp.i:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcCommonFunc.cpp.i
+.PHONY : mprpcCommonFunc.cpp.i
+
+mprpcCommonFunc.s: mprpcCommonFunc.cpp.s
+
+.PHONY : mprpcCommonFunc.s
+
+# target to generate assembly for a file
+mprpcCommonFunc.cpp.s:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcCommonFunc.cpp.s
+.PHONY : mprpcCommonFunc.cpp.s
+
+rpcProvider.o: rpcProvider.cpp.o
+
+.PHONY : rpcProvider.o
+
+# target to build an object file
+rpcProvider.cpp.o:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcProvider.cpp.o
+.PHONY : rpcProvider.cpp.o
+
+rpcProvider.i: rpcProvider.cpp.i
+
+.PHONY : rpcProvider.i
+
+# target to preprocess a source file
+rpcProvider.cpp.i:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcProvider.cpp.i
+.PHONY : rpcProvider.cpp.i
+
+rpcProvider.s: rpcProvider.cpp.s
+
+.PHONY : rpcProvider.s
+
+# target to generate assembly for a file
+rpcProvider.cpp.s:
+	cd /home/wj/Code/SDL2__Game/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcProvider.cpp.s
+.PHONY : rpcProvider.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +214,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... mprpc"
+	@echo "... mprpcApplication.o"
+	@echo "... mprpcApplication.i"
+	@echo "... mprpcApplication.s"
+	@echo "... mprpcCommonFunc.o"
+	@echo "... mprpcCommonFunc.i"
+	@echo "... mprpcCommonFunc.s"
+	@echo "... rpcProvider.o"
+	@echo "... rpcProvider.i"
+	@echo "... rpcProvider.s"
 .PHONY : help
 
 

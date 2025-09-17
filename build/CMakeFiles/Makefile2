@@ -134,7 +134,7 @@ example/caller/clean:
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all:
+src/all: src/CMakeFiles/mprpc.dir/all
 
 .PHONY : src/all
 
@@ -144,7 +144,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean:
+src/clean: src/CMakeFiles/mprpc.dir/clean
 
 .PHONY : src/clean
 
@@ -167,13 +167,40 @@ thirdparty/spdlog/clean: thirdparty/spdlog/CMakeFiles/spdlog.dir/clean
 .PHONY : thirdparty/spdlog/clean
 
 #=============================================================================
+# Target rules for target src/CMakeFiles/mprpc.dir
+
+# All Build rule for target.
+src/CMakeFiles/mprpc.dir/all: thirdparty/spdlog/CMakeFiles/spdlog.dir/all
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/depend
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=1,2,3,4 "Built target mprpc"
+.PHONY : src/CMakeFiles/mprpc.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/mprpc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/mprpc.dir/rule
+
+# Convenience name for target.
+mprpc: src/CMakeFiles/mprpc.dir/rule
+
+.PHONY : mprpc
+
+# clean rule for target.
+src/CMakeFiles/mprpc.dir/clean:
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/clean
+.PHONY : src/CMakeFiles/mprpc.dir/clean
+
+#=============================================================================
 # Target rules for target example/callee/CMakeFiles/provider.dir
 
 # All Build rule for target.
 example/callee/CMakeFiles/provider.dir/all: thirdparty/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/depend
 	$(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=1,2,3,4 "Built target provider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=5,6,7,8 "Built target provider"
 .PHONY : example/callee/CMakeFiles/provider.dir/all
 
 # Build rule for subdir invocation for target.
@@ -200,7 +227,7 @@ example/callee/CMakeFiles/provider.dir/clean:
 thirdparty/spdlog/CMakeFiles/spdlog.dir/all:
 	$(MAKE) -f thirdparty/spdlog/CMakeFiles/spdlog.dir/build.make thirdparty/spdlog/CMakeFiles/spdlog.dir/depend
 	$(MAKE) -f thirdparty/spdlog/CMakeFiles/spdlog.dir/build.make thirdparty/spdlog/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wj/Code/SDL2__Game/MPRPC/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target spdlog"
 .PHONY : thirdparty/spdlog/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.

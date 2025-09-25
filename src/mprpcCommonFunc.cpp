@@ -1,5 +1,4 @@
 #include "mprpcCommonFunc.hpp"
-#include <spdlog/spdlog.h>
 #include <spdlog/sinks/stdout_color_sinks.h>
 #include <spdlog/sinks/basic_file_sink.h>
 #include <spdlog/sinks/daily_file_sink.h>
@@ -11,13 +10,19 @@ MprpcCommonFunc::MprpcCommonFunc()
 {
     logName = "../logs/MPRPC/logfile";
     logPath = "../logs/MPRPC";
-    init_logger(logName);
+    
 }
 
 MprpcCommonFunc &MprpcCommonFunc::getInstance()
 {
     static MprpcCommonFunc ins;
     return ins;
+}
+
+void MprpcCommonFunc::init()
+{
+    init_logger(logName);
+    readConfig();
 }
 
 void MprpcCommonFunc::init_logger(const std::string &log_name)
@@ -101,4 +106,18 @@ bool MprpcCommonFunc::readConfig()
     
     file.close();
     return true;
+}
+
+int MprpcCommonFunc::getValueFromConfig(const std::string key, std::string &value)
+{
+    auto iter = m_config.find(key);
+    if(iter == m_config.end())
+    {
+        spdlog::error("配置文件不存在关键字:" + key);
+        value = "";
+        return 0;
+    }
+    
+    value = iter->second;
+    return 1;
 }

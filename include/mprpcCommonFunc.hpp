@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <unordered_map>
+#include <spdlog/spdlog.h>
 
 class MprpcCommonFunc
 {
@@ -9,6 +10,7 @@ public:
 
     static MprpcCommonFunc& getInstance();
 
+    void init();
     // 初始化日志
     void init_logger(const std::string& log_name);
 
@@ -17,7 +19,9 @@ public:
     std::string trim(const std::string &s);
     // 从配置文件读取键值对
     bool readConfig();
-
+    
+    //获取ip，端口
+    int getValueFromConfig(const std::string key, std::string& value);
 
 private:
 

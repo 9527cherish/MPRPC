@@ -3,8 +3,9 @@ aux_source_directory(${CMAKE_SOURCE_DIR}/example PROTO_LIST)
 
 find_package(Protobuf REQUIRED)
 
+link_directories(${CMAKE_SOURCE_DIR}/lib)
 # 编译动态库
 # add_library(MuduoSimplify SHARED ${SRC_LIST})
 add_executable(provider ${SRC_LIST} ${PROTO_LIST})
 
-target_link_libraries(provider PRIVATE spdlog::spdlog  protobuf::libprotobuf)
+target_link_libraries(provider PRIVATE protobuf::libprotobuf mprpc)

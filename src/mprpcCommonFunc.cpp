@@ -69,7 +69,7 @@ std::string MprpcCommonFunc::trim(const std::string &s)
 
 bool MprpcCommonFunc::readConfig()
 {
-    std::string filename = "../config.ini";
+    std::string filename = "./config.ini";
     std::ifstream file(filename);
     if (!file.is_open()) {
         spdlog::error ("无法打开配置文件: " + filename);

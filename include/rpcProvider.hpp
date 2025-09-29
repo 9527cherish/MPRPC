@@ -22,7 +22,7 @@ private:
     // 连接的回调函数
     void onConnection(const muduo::net::TcpConnectionPtr& conn);
     // 收到信息的回调函数
-    void onMessage(const muduo::net::TcpConnectionPtr& conn, muduo::net::Buffer*, muduo::Timestamp);
+    void onMessage(const muduo::net::TcpConnectionPtr& conn, muduo::net::Buffer* buffer, muduo::Timestamp);
 
     std::unique_ptr<muduo::net::TcpServer> m_pServer;
     muduo::net::EventLoop m_loop;
@@ -34,5 +34,10 @@ private:
     };
 
     // 存储所有服务的信息
-    std::unordered_map<std::string, ServiceInfo> m_ServiceMap;
+    std::unordered_map<std::string, ServiceInfo> m_serviceMap;
+
+    int getMethod(std::string serviceName, std::string methodName, google::protobuf::Service* service,const google::protobuf::MethodDescriptor* methodDescri);
+
+    void sendRpcResponse(const muduo::net::TcpConnectionPtr& conn,google::protobuf::Message* response);
+    
 };
